@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="primary-buttons">
+      <div class="header-button button-logo gray-hover">
+        <i class="fa fa-home header-icon"></i>
+        Logo
+      </div>
+      <div class="header-button white-hover">
+        <i class="fa fa-globe header-icon"></i>
+      </div>
+      <div class="header-button white-hover">
+        <i class="fa fa-user header-icon"></i>
+      </div>
+      <div class="header-button white-hover">
+        <i class="fa fa-envelope header-icon"></i>
+      </div>
+      <div class="header-button gray-hover">
+        <i class="fa fa-bell header-icon"></i>
+      </div>
+    </div>
+    <div class="header-button white-hover last-button">
+      <img src="https://www.w3schools.com/w3images/avatar2.png">
+    </div>
+  </div>
+
+  <div class="main-container">
+    <div class="head-container">
+
+      <div class="first-content">
+        <div class="card">
+          <h1 class="title-text">My Profile</h1>
+          <p class="conteiner-of-photo">
+            <img src="https://www.w3schools.com/w3images/avatar3.png" class="avatar-photo">
+            <hr>
+          </p>
+          <p>
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            Designer, UI
+          </p>
+          <p>
+            <i class="fa fa-home"></i>
+            London, UK
+          </p>
+          <p>
+            <i class="fa fa-birthday-cake"></i>
+            April 1, 1988
+          </p>
+        </div>
+
+        <div class="card without-padding">
+          <button onclick="showHideContent('first-hide-content')" class="card-button gray-hover">
+            <i class="fa fa-circle-o-notch"></i>
+            My Group
+          </button>
+          <div id="first-hide-content" class="hide-content">Some Text..</div>
+          <button onclick="showHideContent('second-hide-content')" class="card-button gray-hover">
+            <i class="fa fa-calendar-check-o"></i>
+            My Events
+          </button>
+          <div id="second-hide-content" class="hide-content">Some other Text..</div>
+          <button onclick="showHideContent('third-hide-content')" class="card-button gray-hover">
+            <i class="fa fa-users"></i>
+            My Photos
+          </button>
+          <div id="third-hide-content" class="hide-content">
+            <img src="https://www.w3schools.com/w3images/lights.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/nature.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/forest.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/nature.jpg" alt="">
+            <img src="https://www.w3schools.com/w3images/snow.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="info-about-interests">
+            <span>Interests</span>
+            <p>
+              <span class="name-of-interests-1">News</span>
+              <span class="name-of-interests-2">W3Schools</span>
+              <span class="name-of-interests-3">Labels</span>
+              <span class="name-of-interests-4">Games</span>
+              <span class="name-of-interests-5">Friends</span>
+              <span class="name-of-interests-6">Games</span>
+              <span class="name-of-interests-7">Friends</span>
+              <span class="name-of-interests-8">Food</span>
+              <span class="name-of-interests-9">Design</span>
+              <span class="name-of-interests-10">Art</span>
+              <span class="name-of-interests-11">Photos</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="hey-message" id="message">
+          <p>Hey!</p>
+          <span>People are looking at your profile. Find out who. </span>
+          <div class="button-close">
+            <i class="fa fa-close" id="button-close"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-content">
+        <div class="card">
+          <h2 class="second-title">Social Media template by w3.css</h2>
+          <p class="input-status" contenteditable="true">Status: Feeling Blue</p>
+          <button type="button" class="button-post gray-hover">
+            <i class="fa fa-pencil"></i>
+            Post
+          </button>
+        </div>
+
+
+        <div class="card">
+          <div class="card-header">
+            <div class="sender-data">
+              <img src="https://www.w3schools.com/w3images/avatar2.png">
+              <div class="sender-name">John Doe</div>
+            </div>
+            <div class="send-date">1 min</div>
+          </div>
+          <hr>
+          <div class="sent-content">
+            <span class="text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.</span>
+            <div class="images-content">
+              <img src="https://www.w3schools.com/w3images/lights.jpg" alt="">
+              <img src="https://www.w3schools.com/w3images/nature.jpg" alt="">
+            </div>
+            <div class="tool-bar">
+              <button type="button" class="button-post gray-hover">
+                <i class="fa fa-thumbs-up"></i>
+                like
+              </button>
+              <button type="button" class="button-post gray-hover">
+                <i class="fa fa-comment"></i>
+                Comment
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div class="sender-data">
+              <img src="https://www.w3schools.com/w3images/avatar5.png">
+              <div class="sender-name">John Doe</div>
+            </div>
+            <div class="send-date">16 min</div>
+          </div>
+          <hr>
+          <div class="sent-content">
+            <span class="text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.</span>
+            <div class="tool-bar">
+              <button type="button" class="button-post gray-hover">
+                <i class="fa fa-thumbs-up"></i>
+                like
+              </button>
+              <button type="button" class="button-post gray-hover">
+                <i class="fa fa-comment"></i>
+                Comment
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div class="sender-data">
+              <img src="https://www.w3schools.com/w3images/avatar6.png">
+              <div class="sender-name">Angie Jane </div>
+            </div>
+            <div class="send-date">32 min</div>
+          </div>
+          <hr>
+          <div class="sent-content">
+            <span>Have you seen this? </span>
+            <img class="main-content-image" src="https://www.w3schools.com/w3images/nature.jpg" alt="">
+            <span class="text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore
+              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.</span>
+            <div class="tool-bar">
+              <button type="button" class="button-post gray-hover">
+                <i class="fa fa-thumbs-up"></i>
+                like
+              </button>
+              <button type="button" class="button-post gray-hover">
+                <i class="fa fa-comment"></i>
+                Comment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="third-content">
+        <div class="card upcoming-events">
+          <div class="upcoming-events__title">
+            Upcoming Events:
+          </div>
+          <img src="https://www.w3schools.com/w3images/forest.jpg" alt="">
+          <div class="upcoming-events__subtitle">
+            Holiday
+          </div>
+          <div class="upcoming-events__date-of-event">
+            Friday 15:00
+          </div>
+          <div class="upcoming-events__button-info">
+            Info
+          </div>
+        </div>
+
+        <div class="card friend-request">
+          <div class="friend-request__title">
+            Friend Request
+          </div>
+          <div class="friend-request__friend-details">
+            <img src="https://www.w3schools.com/w3images/avatar6.png">
+            <div class="friend-request__name">
+              Jane Doe
+            </div>
+          </div>
+          <div class="friend-request__buttons">
+            <button class="friend-request__take gray-hover">
+              <i class="fa fa-check"></i>
+            </button>
+            <button class="friend-request__remove gray-hover">
+              <i class="fa fa-remove"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="card ads">
+          <div class="ads__title">
+            ADS
+          </div>
+        </div>
+
+        <div class="card beetle">
+            <div class="beetle__icon">
+              <i class="fa fa-bug w3-xxlarge"></i>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="header-title">
+    <h1>Footer</h1>
+    <div class="footer-link">
+      Powered by
+      <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
